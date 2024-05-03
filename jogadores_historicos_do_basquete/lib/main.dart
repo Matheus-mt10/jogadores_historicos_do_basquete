@@ -1,13 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:jogadores_historicos_do_basquete/Screens/home_page_screen.dart';
 import 'package:jogadores_historicos_do_basquete/Screens/login_screen.dart';
 
 final _router = GoRouter(
   routes: [
     GoRoute(
-      path: '/',
+      path: "/",
       builder: (context, state) => const LoginScreen(),
     ),
+    GoRoute(
+      path: "/homepage",
+      builder: (context, state) => const HomePageScreen(),
+    )
   ],
 );
 
