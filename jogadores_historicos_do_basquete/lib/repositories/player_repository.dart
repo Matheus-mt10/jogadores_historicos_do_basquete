@@ -1,7 +1,7 @@
 class PlayerRepository {
-  static List<Player> playerList = [
+  static List<PlayerRepository> playerList = [
+ 
 
-    playerList
 
   ];
 }
